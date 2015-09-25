@@ -8,7 +8,7 @@ var container, heading, body, btn;
 
 
 function preload() {
-  var is_sound = function(e) {return e.indexOf('.wav') > 0;};
+  var is_sound = function(e) {return e.indexOf('.wav') > 0 || e.indexOf('.mp3') > 0 ;};
   fs.readdirSync(app.sonidos_dir)
     .filter(is_sound)
     .map(function(snd){
