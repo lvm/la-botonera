@@ -1,0 +1,23 @@
+{
+  "name": "la-botonera",
+  "version": "0.0.1",
+  "description": "es una botonera, master.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "botonera",
+    "huayra"
+  ],
+  "author": "no",
+  "license": "MIT",
+  "window": {
+    "toolbar": false,
+    "width": 960,
+    "height": 600
+  },
+  "dependencies": {
+    "xdg-env": "1.4.14"
+  }
+}
